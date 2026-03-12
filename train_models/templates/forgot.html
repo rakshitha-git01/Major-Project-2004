@@ -1,0 +1,103 @@
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Forgot</title>
+<style>
+body{font-family:Segoe UI;background:#ffe5ec;text-align:center;padding-top:100px;}
+input,button{padding:12px;margin:10px;border-radius:8px;}
+</style>
+</head>
+<body>
+<h2>Reset Password</h2>
+<form method="POST" action="/forgot_post">
+<input name="username" placeholder="Username" required><br>
+<input name="password" placeholder="New Password" required><br>
+<button>Reset</button>
+</form>
+</body>
+</html> --> -->
+
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reset Password</title>
+<style>
+body{
+margin:0;
+font-family:'Segoe UI';
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg,#000000,#0a0a0a,#1a1a1a,#111111);
+}
+.card{
+background:#141414;
+padding:40px;
+border-radius:20px;
+box-shadow:0 0 40px rgba(0,255,255,0.2);
+width:320px;
+text-align:center;
+color:white;
+}
+h2{color:#ff9800;}
+input{
+width:100%;
+padding:12px;
+margin:12px 0;
+border-radius:10px;
+border:1px solid #ff9800;
+background:#1b8926;
+color:white;
+}
+button{
+width:100%;
+padding:12px;
+background:linear-gradient(135deg,#ff9800,#ff5722);
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+a{display:block;margin-top:10px;color:#90caf9;}
+</style>
+</head>
+<body>
+
+<div class="card">
+<h2>🔑 Reset Password</h2>
+
+<form method="POST" action="/forgot_post">
+<input name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="New Password" required>
+<button>Reset</button>
+</form>
+
+<a href="/">Back to Login</a>
+</div>
+
+</body>
+</html> -->
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Forgot Password</title>
+<style>body{font-family:'Segoe UI';text-align:center;padding:50px;} input, button{padding:12px;margin:10px;border-radius:8px;} button{background:#4CAF50;color:white;border:none;cursor:pointer;}</style>
+</head>
+<body>
+<h2>Forgot Password</h2>
+<form method="POST">
+  <input type="text" name="username" placeholder="Username" required><br>
+  <input type="email" name="email" placeholder="Registered Email" required><br>
+  <button>Retrieve Password</button>
+</form>
+{% if message %}<p style="color:green">{{ message }}</p>{% endif %}
+{% if error %}<p style="color:red">{{ error }}</p>{% endif %}
+<p><a href="/">Login</a></p>
+</body>
+</html> 

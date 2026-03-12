@@ -1,0 +1,115 @@
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body{
+margin:0;
+font-family:Segoe UI;
+background:linear-gradient(135deg,#00b4d8,#0077b6);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 20px 50px rgba(0,0,0,0.3);
+width:320px;
+text-align:center;
+}
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+button{
+width:100%;
+padding:12px;
+background:#0077b6;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+a{display:block;margin-top:10px;color:#0077b6;}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Login</h2>
+<form method="POST" action="/login">
+<input name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<button>Login</button>
+</form>
+{% if error %}<p style="color:red">{{error}}</p>{% endif %}
+<a href="/register">Register</a>
+<a href="/forgot">Forgot Password?</a>
+</div>
+</body>
+</html>  -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body{
+margin:0;
+font-family:'Segoe UI';
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#ffffff;
+}
+.card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 0 30px rgba(0,0,0,0.2);
+width:320px;
+text-align:center;
+}
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+button{
+width:100%;
+padding:12px;
+background:#4CAF50;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+a{display:block;margin-top:10px;color:#4CAF50;}
+.error{color:red;}
+</style>
+</head>
+<body>
+<div class="card">
+<h2>Login</h2>
+<form method="POST" action="/login">
+<input name="username" placeholder="Username" required>
+<input type="password" name="password" placeholder="Password" required>
+<button>Login</button>
+</form>
+{% if error %}
+<p class="error">{{error}}</p>
+{% endif %}
+<a href="/register">Register</a>
+<a href="/forgot">Forgot Password?</a>
+</div>
+</body>
+</html>
