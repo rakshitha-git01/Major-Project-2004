@@ -1,54 +1,11 @@
-# Flask and web
 flask
 gunicorn
-werkzeug
-jinja2
-itsdangerous
-markupsafe
-click
-blinker
-
-# ML & DL
 numpy
 pandas
 scikit-learn
-tensorflow
-keras
-h5py
-scipy
-joblib
-ml_dtypes
-opt_einsum
-astunparse
-google_pasta
-gast
-protobuf
-wrapt
-grpcio
-libclang
-
-# OpenCV and image processing
+scikit-image
+tensorflow==2.15.0
 opencv-python-headless
 Pillow
 matplotlib
-
-# Utilities
-tqdm
-rich
-optree
-namex
-python-dateutil
-pytz
-tzdata
-requests
-charset_normalizer
-idna
-urllib3
-certifi
-packaging
-mdurl
-pygments
-markdown-it-py
-threadpoolctl
-termcolor
-typing_extensions
+joblib
