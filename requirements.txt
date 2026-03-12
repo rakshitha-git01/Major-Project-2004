@@ -57,14 +57,38 @@ keras==3.12.1
 h5py==3.14.0
 scipy==1.15.3
 joblib==1.5.3
+ml_dtypes==0.5.4
+opt_einsum==3.4.0
+astunparse==1.6.3
+google_pasta==0.2.0
+gast==0.7.0
+protobuf==7.34.0
+wrapt==2.1.2
+grpcio==1.78.0
+libclang==18.1.1
 
 # OpenCV & image processing
 opencv-python-headless==4.13.0.92
 Pillow==12.1.1
+matplotlib==3.8.1  # missing previously
 
-# Utilities your code imports
+# Utilities
 tqdm==4.66.1
+rich==14.3.3
+optree==0.19.0
+namex==0.1.0
 python-dateutil==2.9.0.post0
 pytz==2026.1.post1
 tzdata==2025.3
 requests==2.32.5
+charset_normalizer==3.4.5
+idna==3.11
+urllib3==2.6.3
+certifi==2026.2.25
+packaging==26.0
+mdurl==0.1.2
+pygments==2.19.2
+markdown-it-py==4.0.0
+threadpoolctl==3.6.0
+termcolor==3.3.0
+typing_extensions==4.15.0
