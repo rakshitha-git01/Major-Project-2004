@@ -1,93 +1,54 @@
-# flask
-# numpy
-# opencv-python-headless
-# scikit-learn
-# tensorflow
-# pandas
-# Pillow
-# joblib
-# gunicorn
-# werkzeug
-# tqdm
-
-
-# flask==3.1.3
-# gunicorn==25.1.0
-# werkzeug==3.1.6
-# jinja2==3.1.6
-# itsdangerous==2.2.0
-# markupsafe==3.0.3
-# click==8.3.1
-# blinker==1.9.0
-
-# numpy==2.2.6
-# pandas==2.3.3
-# scikit-learn==1.7.2
-# tensorflow==2.21.0
-# keras==3.12.1
-# h5py==3.14.0
-# scipy==1.15.3
-# joblib==1.5.3
-
-# opencv-python-headless==4.13.0.92
-# Pillow==12.1.1
-
-# tqdm==4.66.1
-# python-dateutil==2.9.0.post0
-# pytz==2026.1.post1
-# tzdata==2025.3
-# requests==2.32.5
-# Flask & web
-flask==3.1.3
-gunicorn==25.1.0
-werkzeug==3.1.6
-jinja2==3.1.6
-itsdangerous==2.2.0
-markupsafe==3.0.3
-click==8.3.1
-blinker==1.9.0
+# Flask and web
+flask
+gunicorn
+werkzeug
+jinja2
+itsdangerous
+markupsafe
+click
+blinker
 
 # ML & DL
-numpy==1.26.1
-pandas==2.3.3
-scikit-learn==1.7.2
-tensorflow==2.21.0
-keras==3.12.1
-h5py==3.14.0
-scipy==1.15.3
-joblib==1.5.3
-ml_dtypes==0.5.4
-opt_einsum==3.4.0
-astunparse==1.6.3
-google_pasta==0.2.0
-gast==0.7.0
-protobuf==7.34.0
-wrapt==2.1.2
-grpcio==1.78.0
-libclang==18.1.1
+numpy
+pandas
+scikit-learn
+tensorflow
+keras
+h5py
+scipy
+joblib
+ml_dtypes
+opt_einsum
+astunparse
+google_pasta
+gast
+protobuf
+wrapt
+grpcio
+libclang
 
-# OpenCV & image processing
-opencv-python-headless==4.13.0.92
-Pillow==12.1.1
-matplotlib==3.8.1
+# OpenCV and image processing
+opencv-python-headless
+Pillow
+matplotlib
 
 # Utilities
-tqdm==4.66.1
-rich==14.3.3
-optree==0.19.0
-namex==0.1.0
-python-dateutil==2.9.0.post0
-pytz==2026.1.post1
-tzdata==2025.3
-requests==2.32.5
-charset_normalizer==3.4.5
-idna==3.11
-urllib3==2.6.3
-certifi==2026.2.25
-packaging==26.0
-mdurl==0.1.2
-pygments==2.19.2
-markdown-it-py==4.0.0
-threadpoolctl==3.6.0
-termcolor==3.3.0
-typing_extensions==4.15.0
+tqdm
+rich
+optree
+namex
+python-dateutil
+pytz
+tzdata
+requests
+charset_normalizer
+idna
+urllib3
+certifi
+packaging
+mdurl
+pygments
+markdown-it-py
+threadpoolctl
+termcolor
+typing_extensions
