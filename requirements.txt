@@ -1,8 +1,10 @@
 flask
 numpy
-opencv-python
+opencv-python-headless
 scikit-learn
 tensorflow
 pandas
 Pillow
 joblib
+gunicorn
+werkzeug
